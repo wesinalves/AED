@@ -54,6 +54,17 @@ As notas no Projeto Computacional serão correspondentes a participação e apre
 
 Caso o aluno falte a alguma das provas e apresente atestado médico, terá como média final na disciplina a média aritmética dos demais módulos.
 
+## Cronograma
+**Conteúdo**
+[lessons](./assets/lessons.png)
+
+**Ensaios de trabalho**
+[essays](./assets/essays.png)
+
+**Provas**
+[exams](./assets/exams.png)
+
+
 ## Bibliografia básica
 1. Cormen, T. H.; Leiserson, C. E.; Rivest, R. L. & Stein - Algoritmos: teoria e prática. 2ª ed., Editora Campus, Rio de Janeiro, 2002.
 2. Drozdek, A. Estrutura de Dados e algoritmos em C++. Cengage Learning, 2003. Número da obra: 154546 / Classificação: 004.021
