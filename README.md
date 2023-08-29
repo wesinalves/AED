@@ -36,8 +36,11 @@ Elaboração de desafios, Exercícios práticos e um Projeto computacional.
 medidas:
 
 Módulo 01: $M01 = 0,9*P1 + 0,1*RD$
+
 Módulo 02: $M02 = 0,8*P2 + 0,2*ED$
+
 Módulo 03: $M03 = 0,8*PC + 0,2*RD$ no M02
+
 Média Final: $MF = (M01 + M02 + M03) / 3$
 
 O aluno terá de satisfazer os seguintes requisitos, para obter a aprovação na disciplina:
