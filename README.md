@@ -56,13 +56,13 @@ Caso o aluno falte a alguma das provas e apresente atestado médico, terá como 
 
 ## Cronograma
 **Conteúdo**
-[lessons](./assets/lessons.png)
+![lessons](./assets/lessons.png)
 
 **Ensaios de trabalho**
-[essays](./assets/essays.png)
+![essays](./assets/essays.png)
 
 **Provas**
-[exams](./assets/exams.png)
+![exams](./assets/exams.png)
 
 
 ## Bibliografia básica
