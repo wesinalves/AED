@@ -76,3 +76,6 @@ Caso o aluno falte a alguma das provas e apresente atestado médico, terá como 
 3. Szwarcfiter, Jayme Luiz - Estruturas de dados e seus algoritmos. LTC, Rio de Janeiro, 1994.
 4. Gersting, J. L. - Fundamentos matemáticos para a ciência da computação. 3ª ed., LTC, Rio de Janeiro, 1995.
 5. Guimarães, A. M.; Lages, N. A. C. - Algoritmos e estruturas de dados. 2ª ed., LTC, Rio de Janeiro, 1994.
+[isocpp](https://isocpp.org/get-started)
+[Bjarne's tour](https://isocpp.org/tour)
+[cpp reference](https://en.cppreference.com/w/)
