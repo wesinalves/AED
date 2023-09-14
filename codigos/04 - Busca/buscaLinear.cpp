@@ -6,7 +6,7 @@ class Busca{
 
     int opcao;
     const int tamanho = 10;
-    int *vetor;
+    int vetor[11];
     int res;
 
     public:
@@ -22,12 +22,10 @@ class Busca{
     }
 
     void insereElemento(){
-        static int vet[10];
-        for(int i=0; i<10; i++){
+        for(int i=0; i<tamanho; i++){
             cout << "Informe o valor do elemento " << i << endl;
-            cin >> vet[i];
+            cin >> vetor[i];
         }
-        vetor = vet;
     }
 
     void apresentarVetor(){
