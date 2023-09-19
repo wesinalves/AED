@@ -37,7 +37,7 @@ int main(){
     return 0;
 }
 
-int buscaBinaria(int v[], int t, int a){
+int buscaBinaria2(int v[], int t, int a){
     int l, r, m;
     l = 0;
     r = t - 1;
@@ -51,5 +51,22 @@ int buscaBinaria(int v[], int t, int a){
     }
     if(v[r] == a)
         return r;
+    return -1;
+}
+
+int buscaBinaria(int v[], int t, int a){
+    int l, r, m;
+    l = 0;
+    r = t - 1;
+    while(l <= r){
+        m = (l + r) / 2;
+        if(v[m] == a){
+            return m;
+        }else if(v[m] <= a){
+            l = m + 1;
+        }else{
+            r = m - 1;
+        }
+    }
     return -1;
 }
