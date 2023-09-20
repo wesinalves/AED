@@ -6,7 +6,7 @@ int buscaBinaria(int v[], int t, int a);
 int main(){
     int vet[50];
     int alvo;
-    int tamanho = 50;
+    int tamanho = 10;
     int resultado;
     // initializar vetor
     for(int i = 0; i < tamanho; i++){
@@ -37,7 +37,7 @@ int main(){
     return 0;
 }
 
-int buscaBinaria2(int v[], int t, int a){
+int buscaBinaria(int v[], int t, int a){
     int l, r, m;
     l = 0;
     r = t - 1;
@@ -54,7 +54,7 @@ int buscaBinaria2(int v[], int t, int a){
     return -1;
 }
 
-int buscaBinaria(int v[], int t, int a){
+int buscaBinaria2(int v[], int t, int a){
     int l, r, m;
     l = 0;
     r = t - 1;
