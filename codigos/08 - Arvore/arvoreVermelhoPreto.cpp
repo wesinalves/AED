@@ -52,8 +52,8 @@ class RBTree{
             cout << node->key << "(" << node->color << ")" << endl;
             printTree(node->left, indent, false);
             printTree(node->right, indent, true);
+        }
     }
-}
 
     void leftRotate(Node* x){
         Node* y = x->right;
