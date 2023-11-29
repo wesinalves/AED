@@ -25,7 +25,7 @@ class Graph{
             cout << i << "\t" << dist[i] << endl;
     }
     void relax(int u, int v, int w){
-        if(dist[u] != INT_MAX && dist[u] + w < dist[v])
+        if(dist[v] > dist[u] + w)
             dist[v] = dist[u] + w;
     }
     bool bellmanFord(int src){
@@ -45,7 +45,7 @@ class Graph{
             int w = edge[0];
             int u = edge[1];
             int v = edge[2];
-            if(dist[u] != INT_MAX && dist[u] + w < dist[v]){
+            if(dist[v] > dist[u] + w){
                 cout << "Aborting. Graph contains negative weight cycle";
                 return false;
             }
