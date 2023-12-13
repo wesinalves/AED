@@ -5,15 +5,20 @@ class Graph{
     vector<vector<int>> edgeList;
     int V, E;
     int* dist;
+    int* parent;
     public:
     Graph(int V, int E){
         this->V = V;
         this->E = E;
         dist = new int[V];
+        parent = new int[V];
     }
     void initializeSingleSource(int src){
-        for(int i = 0; i < V; i++)
+        for(int i = 0; i < V; i++){
             dist[i] = INT_MAX;
+            parent[i] = -1;
+        }
+           
         dist[src] = 0;    
     }
     void addEdge(int w, int u, int v){
@@ -21,12 +26,29 @@ class Graph{
     }
     void displayDistances(){
         cout << "Vertex" << "\t" << "distance from source" << endl;
-        for(int i = 0; i < V; i++)
+        for(int i = 0; i < V; i++){
             cout << i << "\t" << dist[i] << endl;
+            shortestPath(i);
+            cout << endl << "-----------------------------" << endl;
+        }
     }
     void relax(int u, int v, int w){
-        if(dist[v] > dist[u] + w)
+        if(dist[v] > dist[u] + w){
             dist[v] = dist[u] + w;
+            parent[v] = u;
+        }
+           
+    }
+
+    void shortestPath(int dest){
+        if(parent[dest] == -1){
+            cout << dest;
+            return;
+        }
+        
+        shortestPath(parent[dest]);
+        cout  << " -> " << dest;
+        
     }
     bool bellmanFord(int src){
         initializeSingleSource(src);
