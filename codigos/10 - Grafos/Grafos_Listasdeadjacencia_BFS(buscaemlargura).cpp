@@ -8,30 +8,30 @@ using namespace std;
 
 class Grafo
 {
-	int V; // número de vértices
-	list<int> *adj; // ponteiro para um array contendo as listas de adjacências
-	// para cada vértice há uma lista com os seus vizinhos
+	int V; // nï¿½mero de vï¿½rtices
+	list<int> *adj; // ponteiro para um array contendo as listas de adjacï¿½ncias
+	// para cada vï¿½rtice hï¿½ uma lista com os seus vizinhos
 
 public:
-	Grafo(int V); // construtor com o num de vértices
+	Grafo(int V); // construtor com o num de vï¿½rtices
 	void adicionarAresta(int v1, int v2); // adiciona uma aresta no grafo
 										// saindo de v1 e chegando a v2
 
-	// faz uma BFS a partir de um vértice
+	// faz uma BFS a partir de um vï¿½rtice
 	void bfs(int v);
 };
 
 Grafo::Grafo(int V)
 {
-	this->V = V; // atribui o número de vértices
+	this->V = V; // atribui o nï¿½mero de vï¿½rtices
 	adj = new list<int>[V]; // cria as listas
-	//cada vértice tem uma lista com os seus vizinhos
-	//se temos v vértices teremos v listas
+	//cada vï¿½rtice tem uma lista com os seus vizinhos
+	//se temos v vï¿½rtices teremos v listas
 }
 
 void Grafo::adicionarAresta(int v1, int v2)
 {
-	// adiciona vértice v2 à lista de vértices adjacentes de v1
+	// adiciona vï¿½rtice v2 ï¿½ lista de vï¿½rtices adjacentes de v1
 	adj[v1].push_back(v2);
 }
 
@@ -40,20 +40,20 @@ void Grafo::bfs(int v)
 visitados[no_corrente] = true
 enquanto verdade;
 	percorre todos os vizinhos
-		se vizinho NÃO tiver sido visitado
+		se vizinho Nï¿½O tiver sido visitado
 		marcar o vizinho como visitado
 		insere o vizinho na fila
-se a fila não estiver vazia 
-	v = fila.frente()
-	fila.remove()
-senao
-	sai do loop
+		se a fila nï¿½o estiver vazia 
+			v = fila.frente()
+			fila.remove()
+		senao
+			sai do loop
 */
 {
 	queue<int> fila;
 	bool visitados[V]; // vetor de visitados
 
-	// marca todos como não visitados
+	// marca todos como nï¿½o visitados
 	for(int i = 0; i < V; i++)
 		visitados[i] = false;
 
@@ -65,7 +65,7 @@ senao
 		list<int>::iterator it; //para percorrer todos os elementos da lista
 		for(it = adj[v].begin(); it != adj[v].end(); it++)
 		{
-			if(!visitados[*it])//*it para acessar o conteúdo
+			if(!visitados[*it])//*it para acessar o conteï¿½do
 			{
 				cout << "Visitando vertice " << *it << " ...\n";
 				visitados[*it] = true; // marca como visitado
@@ -73,10 +73,10 @@ senao
 			}
 		}
 
-		// verifica se a fila NÃO está vazia
+		// verifica se a fila Nï¿½O estï¿½ vazia
 		if(!fila.empty())
 		{
-			v = fila.front(); // obtém o primeiro elemento
+			v = fila.front(); // obtï¿½m o primeiro elemento
 			fila.pop(); // remove da fila
 		}
 		else
@@ -100,7 +100,7 @@ int main()
 	grafo.adicionarAresta(2, 6);
 	grafo.adicionarAresta(6, 7);
 
-	grafo.bfs(0);
+	grafo.bfs(2);
 
 	return 0;
 }
