@@ -15,11 +15,6 @@ heterogêneas. Introdução às estruturas de dados estáticas e dinâmicas
 Complexidade computacional. Aplicações de algoritmos e estrutura de dados
 em problemas de redes de comunicação e na computação de dados.
 
-## Horário de aulas
-* Segundas-ferias e quarta-feiras das 10:00 hs às 11:50 hs
-* Laboratório: Haverá sala de laboratório e, os exercícios serão
-realizados em Computadores.
-
 ## Metodologia
 
 * Os autores Lilian Bacich e José Moran destacam: uma abordagem teórico-prática.
