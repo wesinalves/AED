@@ -61,8 +61,9 @@ Caso o aluno falte a alguma das provas e apresente atestado médico, terá como 
 
 ## Bibliografia básica
 1. Cormen, T. H.; Leiserson, C. E.; Rivest, R. L. & Stein - Algoritmos: teoria e prática. 2ª ed., Editora Campus, Rio de Janeiro, 2002.
-2. Drozdek, A. Estrutura de Dados e algoritmos em C++. Cengage Learning, 2003. Número da obra: 154546 / Classificação: 004.021
-3. Tanenbaum, A. M., Langsam, Y., Augenstein, M. J. - Estruturas de dados usando C. Makron Books. São Paulo. 1995
+2. Deitel, P and Deitel H; C++ Como programar. 10ª ed.
+3. Drozdek, A. Estrutura de Dados e algoritmos em C++. Cengage Learning, 2003. Número da obra: 154546 / Classificação: 004.021
+4. Tanenbaum, A. M., Langsam, Y., Augenstein, M. J. - Estruturas de dados usando C. Makron Books. São Paulo. 1995
 
 ## Bibliografia complementar
 1. Koenig, A; Moo, B. E. - Accelerated C++. Addison Wesley, 2000.
