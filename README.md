@@ -25,16 +25,15 @@ construtivista, no qual as partes interessadas trocam conhecimentos.
 metodologias de ensino supramencionadas.
 
 ## Critérios de avaliação
-* Duas Provas práticas de pesos distintos, Resolução de desafios,
-Elaboração de desafios, Exercícios práticos e um Projeto computacional.
+* Duas Provas práticas de pesos distintos, Exercícios práticos e um Projeto computacional.
 * Para o cálculo da média final da disciplina, consideram-se as seguintes
 medidas:
 
-Módulo 01: $M01 = 0,9*P1 + 0,1*RD$
+Módulo 01: $M01 = 0,9*P1 + 0,1*EX$
 
-Módulo 02: $M02 = 0,8*P2 + 0,2*ED$
+Módulo 02: $M02 = 0,8*P2 + 0,2*EX$
 
-Módulo 03: $M03 = 0,8*PC + 0,2*RD$ no M02
+Módulo 03: $M03 = 0,8*PC + 0,2*EX$ no M02
 
 Média Final: $MF = (M01 + M02 + M03) / 3$
 
