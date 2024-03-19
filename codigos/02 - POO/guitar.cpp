@@ -7,11 +7,11 @@ class Guitar{
         void fingerPicking();
         void strumming();
         void tunning();
-        Guitar(string brand){
-            this->brand = brand;
-        }
-        string getBrand(){
-            return brand;
+        Guitar(float price){
+            this->price = price;
+        };
+        string getPrice(){
+            return to_string(price) + "\n";
         }
     protected:
         string brand;
@@ -38,8 +38,9 @@ void Guitar::tunning(){
 
 
 int main(){
-    Guitar myGuitar = Guitar("Taylor");
-    myGuitar.fingerPicking();
-    cout << "Guitar's brand is " << myGuitar.getBrand();
+    Guitar myGuitar = Guitar(1200);
+    cout << myGuitar.getPrice();
+    myGuitar.tunning();
+    myGuitar.strumming();
     return 0;
 }
