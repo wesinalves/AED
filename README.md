@@ -1,10 +1,6 @@
 # Algoritmos e estrutura de dados (AED)
 ## Objetivo
-Apresentar ao aluno as mais importantes estruturas de dados e seus
-algoritmos, permitindo assim o desenvolvimento de conhecimentos,
-habilidades, competências e autonomia para o desenvolvimento de
-soluções algorítmicas eficientes para uso em sistemas computacionais,
-especialmente em redes de comunicação e na computação de dados.
+Introduzir aos estudantes as várias estruturas da informação, buscando habilitá-los a contar com esses recursos no desenvolvimento de tecnologias, protocolos e aplicações de redes de comunicação. Fornecer uma base sólida sobre tipos de dados e as operações associadas aos tipos, definir os objetos que constituem o dado e as operações aplicáveis fazendo uso das estruturas de dados estáticas básicas: lista, pilhas, filas e árvores, e demonstrar os principais algoritmos de ordenação e pesquisa em memória primária.
 
 ## Ementa do programa
 Desenvolvimento sistemático de algoritmos. Algoritmos triviais em soluções
@@ -14,6 +10,13 @@ heterogêneas. Introdução às estruturas de dados estáticas e dinâmicas
 (ponteiros). Desenvolvimento de algoritmos de ordenação e busca.
 Complexidade computacional. Aplicações de algoritmos e estrutura de dados
 em problemas de redes de comunicação e na computação de dados.
+
+1. Programação Orientada a Objetos.
+2. Algoritmos e Estrutura de Dados: conceitos, tipos de dados e aplicações.
+3. Estruturas de Dados: Listas encadeadas, pilhas, filas, dicionários e árvores (árvores binárias, árvores de busca).
+4. Ordenação: algoritmos de ordenação.
+5. Introdução a Grafos: Representações; Algoritmos de Busca em Grafos; Aplicações utilizando Grafos (Caminhos Mínimos e Árvore Geradora Mínima).
+6. Paradigmas de Projeto de Algoritmos. Recursividade. Divisão e Conquista.
 
 ## Metodologia
 
