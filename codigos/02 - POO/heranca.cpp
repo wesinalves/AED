@@ -12,6 +12,9 @@ public:
         this->age = age;
         this->weight = weight;
     }
+    void eat(){
+        cout << "I'm a pet and I'm hungry\n";
+    }
 };
 
 class Dog: public Pet{
@@ -55,4 +58,5 @@ int main(){
     p1.eat();
     cout << d1.getName() << " isTrained=" << d1.getIsTrained() << endl;
     cout << p1.getName() << " tem " << p1.getNumLifes() << " vidas." << endl;
+    return 0;
 }
