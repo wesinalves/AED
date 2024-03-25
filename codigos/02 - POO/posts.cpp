@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <string>
 #include <sstream>
 using namespace std;
 
@@ -62,13 +61,13 @@ int main(){
     Post p2 = Post(2,"meu segundo post", u1);
     Post p3 = Post(3, "meu primeiro post", u2);
 
-    ofstream fout("posts.txt", ios::app);
-    p1.save(fout);
-    p2.save(fout);
-    p3.save(fout);
+    // ofstream fout("posts.txt", ios::app);
+    // p1.save(fout);
+    // p2.save(fout);
+    // p3.save(fout);
     
-    //ifstream fin("posts.txt");
-    //u1.getAllPosts(fin);
+    ifstream fin("posts.txt");
+    u1.getAllPosts(fin);
 
     return 0;
 }
