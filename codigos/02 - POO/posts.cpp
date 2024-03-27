@@ -67,7 +67,7 @@ int main(){
     // p3.save(fout);
     
     ifstream fin("posts.txt");
-    u1.getAllPosts(fin);
+    u2.getAllPosts(fin);
 
     return 0;
 }
