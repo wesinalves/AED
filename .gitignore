@@ -33,3 +33,5 @@
 *.txt
 
 .vscode
+*.dSYM
+*.yml
