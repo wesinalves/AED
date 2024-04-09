@@ -34,7 +34,7 @@ int buscaBinaria(int array[], int size, int target){
         if(array[m] == target){
             return m;
         }
-        else if(array[m] < target){
+        else if(array[m] <= target){
             l = m + 1;
         }
         else{
