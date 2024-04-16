@@ -5,8 +5,8 @@ using namespace std;
 int main(){
     // inicializacao
     int chave, i;
-    int tamanho = 9;
-    int A[] = {2 ,4 ,1, 10, 3, 5, 4, 12, 8};
+    int tamanho = 10;
+    int A[] = {2 ,4 ,1, 10, 3, 5, 4, 12, 8, 9};
 
     for(int j = 0; j < tamanho; j++){
         A[j] = rand() % 100;
@@ -14,7 +14,7 @@ int main(){
     }
     cout << endl;
     // processamento
-    for(int j = 2; j < tamanho; j++){
+    for(int j = 1; j < tamanho; j++){
         chave = A[j];
         i = j - 1;
         while(i>=0 && A[i] > chave){
