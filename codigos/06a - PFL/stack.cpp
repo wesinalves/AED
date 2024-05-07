@@ -23,7 +23,7 @@ int main(){
 	// retira a ultima carta do baralho, pois como
 	// foi a ultima a entrar vai ser a primeira a sair
 	cartas.pop(); 
-	//cartas.pop();
+	cartas.pop();
 	
 	cout << "\ntamanho da pilha: " << cartas.size() << endl; 
 	
