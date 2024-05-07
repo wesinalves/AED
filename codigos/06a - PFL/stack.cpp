@@ -13,7 +13,7 @@ int main(){
 	cartas.push("Rei de Espadas");
 	cartas.push("7 de Copas");
 	
-	// mostra o tamanho da pilha pois é alocavel
+	// mostra o tamanho da pilha pois ï¿½ alocavel
 	cout << "tamanho da pilha: " << cartas.size() << endl; 
 	
 	//retorna o termo que entrou por ultimo
@@ -42,11 +42,11 @@ int main(){
 	cout << "carta do topo: " << cartas.top() << endl; 
 	*/
 	
-	
+	/*
 	while(!cartas.empty()){
 	cout << cartas.top() << endl;
 	cartas.pop();				// metodo para zerar a pilha
-	}
+	}*/
 	
 	
 	return 0;	
